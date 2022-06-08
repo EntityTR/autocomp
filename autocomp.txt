@@ -307,11 +307,11 @@
           "description": "Returns the functions connected to event as a table.\nEach entry in the returned table is a table with Enable and Disable methods.\nYou can call those methods to enable/disable connections.",
           "insert": "getconnections"
       },
-      "is_Entity_function": {
-          "label": "is_Entity_function(f);",
+      "is_eryth_function": {
+          "label": "is_eryth_function();",
           "type": "Method",
-          "description": "returns true if f is a Entity function. (Fakefunction :D)",
-          "insert": "is_Entity_function"
+          "description": "returns true.",
+          "insert": "is_eryth_function"
       },
       "setreadonly": {
           "label": "setreadonly(t, b);",
